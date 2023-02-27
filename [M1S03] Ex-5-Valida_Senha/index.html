@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="login-box">
+  <form>
+    <div class="user-box">
+      <input id="name" type="text" name="username" required autocomplete="username">
+      <label>Usuario</label>
+    </div>
+    <div class="user-box">
+      <input id="password" type="password" name="password" required autocomplete="current-password">
+      <label>Senha</label>
+    </div>
+    <button onclick="entrar()">
+      ENTRAR
+    </button>
+  </form>
+  <div class="boxLogin">
+    <span class="blockLogin"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+               stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="stroke: red;">
+      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+      <path d="m15 9-6 6"></path>
+      <path d="m9 9 6 6"></path>
+    </svg> <span>login recusado</span>
+    </span>
+    <span class="acessLogin"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="stroke: #2cf313;>
+  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+  <path d="M22 4 12 14.01l-3-3"></path>
+</svg> <span>login aceito</span>
+    </span>
+  </div>
+</div>
+</body>
+</html>
