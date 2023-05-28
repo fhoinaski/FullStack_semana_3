@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "codigo_do_produto": 1,
+      "nome": "Produto 1",
+      "peso": "1kg",
+      "quantidade": 10
+    },
+    {
+      "codigo_do_produto": 2,
+      "nome": "Produto 2",
+      "peso": "2kg",
+      "quantidade": 15
+    },
+    {
+      "codigo_do_produto": 3,
+      "nome": "Produto 3",
+      "peso": "500g",
+      "quantidade": 20
+    },
+    {
+      "codigo_do_produto": 4,
+      "nome": "Produto 4",
+      "peso": "750g",
+      "quantidade": 5
+    },
+    {
+      "codigo_do_produto": 5,
+      "nome": "Produto 5",
+      "peso": "1kg",
+      "quantidade": 10
+    },
+    {
+      "codigo_do_produto": 6,
+      "nome": "Produto 5",
+      "peso": "1kg",
+      "quantidade": 10
+    },
+    {
+      "codigo_do_produto": 7,
+      "nome": "Produto 7",
+      "peso": "1kg",
+      "quantidade": 10
+    },
+    {
+      "nome": "Produto 7",
+      "peso": "1kg",
+      "quantidade": 10,
+      "codigo_do_produto": 8
+    },
+    {
+      "nome": "Produto 7",
+      "peso": "1kg",
+      "quantidade": 10,
+      "codigo_do_produto": 9
+    }
+  ]
+}
